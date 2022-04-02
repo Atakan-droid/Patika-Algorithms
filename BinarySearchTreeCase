@@ -1,0 +1,21 @@
+# Binary Search Tree Case
+
+## Question:
+
+Here is an Array: [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] 
+* Write down the search tree stages
+
+#
+### Solution :
+
+So I choose '0' as the root for the worst case
+
+It will be like this:
+
+                    0
+                        7
+                    5       8
+                3      6        9
+            1   
+
+if we looking for 1 than it will cost us almost O(n)     
